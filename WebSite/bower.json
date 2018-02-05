@@ -1,0 +1,13 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "jquery": "3.3.1",
+    "less": "v2.7.3",
+    "jquery_lazyload": "jquery.lazyload#1.9.7",
+    "bootstrap": "v4.0.0"
+  },
+  "resolutions": {
+    "jquery": "3.3.1"
+  }
+}
