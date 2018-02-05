@@ -7,6 +7,11 @@
 5. Push 到自己的 GitHub，也就是当前的 Origin 地址
 6. 在 GitHub 上提交 Pull request（neo-project ← Your GitHub）
 
+## 快速添加的方法
+如果你对网站前端十分熟练，可以使用此方法快速添加dApp
+1. 打开 [https://github.com/ndapp/WebSite/tree/master/WebSite/wwwroot/images](https://github.com/ndapp/WebSite/tree/master/WebSite/wwwroot/images) 点击 Upload files 上传 dApp 的 LOGO，然后点击 Commit changes.
+2. 打开 [https://github.com/ndapp/WebSite/blob/master/WebSite/wwwroot/index.html](https://github.com/ndapp/WebSite/blob/master/WebSite/wwwroot/index.html) 点击编辑按钮，在列表最后添加项目信息，后点击 Commit changes.
+
 提交 Pull request 后，管理员审核通过后，就会合并到主分支中，并且发布到官网。若有疑问，可以发邮件到 [chenzhitong12@hotmail.com](mailto:chenzhitong12@hotmail.com)
 
 ### dApp 要求
@@ -27,9 +32,12 @@ The overall process is as follows:
 5. Push the changes to your main branch.
 6. Create a Pull Request (PR) on GitHub (neo-project ← your own GitHub).
 
-When the PR is submitted, it will be reviewed and, if accepted, merged into the main branch, after which it is published to the official website.
+## Quick Add method
+If you are familiar with the front-end of the site, you can use this method to quickly add Dapp.
+1. Open [Https://github.com/ndapp/WebSite/tree/master/WebSite/wwwroot/images] (https://github.com/ndapp/WebSite/ tree/master/website/wwwroot/images) Click Upload files Upload dApp LOGO and click Commit Changes.
+2. Open [https://github.com/ndapp/WebSite/blob/master/WebSite/wwwroot/index.html] (https://github.com/ndapp/WebSite /blob/master/website/wwwroot/index.html) Click the Edit button to add item information at the end of the list and click Commit Changes.
 
-If you have any questions, you can send an e-mail to [chenzhitong12@hotmail.com](mailto:chenzhitong12@hotmail.com).
+When the PR is submitted, it will be reviewed and, if accepted, merged into the main branch, after which it is published to the official website.If you have any questions, you can send an e-mail to [chenzhitong12@hotmail.com](mailto:chenzhitong12@hotmail.com).
 
 ### dApp Requests
 
