@@ -1,10 +1,25 @@
 ﻿@color: #28a745;
 
 body {
-    background-color: #ccc !important;
+    background-color: #ddd !important;
+
+    .jumbotron {
+        background-color: #39221e;
+        background-image: url(../images/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+
+        h1 {
+            color: #58bf00;
+            font-weight: normal;
+            text-shadow: 0 3px 4px rgba(255,255,255,.3);
+        }
+    }
 }
 
 .dapp {
+    position: relative;
     display: inline-block;
     margin: 9px 6px;
     padding: 5px;
@@ -36,14 +51,22 @@ body {
     }
 
     img {
-        width: 100%;
+        max-width: 298px;
+        max-height: 149px;
     }
 
     img + div {
         border-top: 1px solid @color;
     }
 
-    p a {
+    .link {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        left: 0;
+    }
+
+    .link a {
         white-space: nowrap;
         margin-left: 7px;
         margin-right: 7px;
