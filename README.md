@@ -34,8 +34,8 @@ The overall process is as follows:
 
 ## Quick Add method
 If you are familiar with the front-end of the site, you can use this method to quickly add Dapp.
-1. Open [Https://github.com/ndapp/WebSite/tree/master/WebSite/wwwroot/images] (https://github.com/ndapp/WebSite/ tree/master/website/wwwroot/images) Click Upload files Upload dApp LOGO and click Commit Changes.
-2. Open [https://github.com/ndapp/WebSite/blob/master/WebSite/wwwroot/index.html] (https://github.com/ndapp/WebSite /blob/master/website/wwwroot/index.html) Click the Edit button to add item information at the end of the list and click Commit Changes.
+1. Open [Https://github.com/ndapp/WebSite/tree/master/WebSite/wwwroot/images](https://github.com/ndapp/WebSite/ tree/master/website/wwwroot/images) Click Upload files Upload dApp LOGO and click Commit Changes.
+2. Open [https://github.com/ndapp/WebSite/blob/master/WebSite/wwwroot/index.html](https://github.com/ndapp/WebSite /blob/master/website/wwwroot/index.html) Click the Edit button to add item information at the end of the list and click Commit Changes.
 
 When the PR is submitted, it will be reviewed and, if accepted, merged into the main branch, after which it is published to the official website.If you have any questions, you can send an e-mail to [chenzhitong12@hotmail.com](mailto:chenzhitong12@hotmail.com).
 
