@@ -1,8 +1,6 @@
 ﻿@color: #28a745;
 
 body {
-    background-color: #ddd !important;
-
     .jumbotron {
         background-color: #39221e;
         background-image: url(../images/bg.jpg);
@@ -26,8 +24,8 @@ body {
     width: 310px;
     height: 420px;
     border-radius: 0;
-    border: 1px solid #fff;
-    border-style: none solid;
+    border: 1px solid #ccc;
+    border-style: solid;
     font-size: 14px;
     text-align: center;
     word-break: normal;
@@ -79,5 +77,16 @@ body {
         &:hover {
             color: darken(@color, 10%) !important;
         }
+    }
+}
+
+#exchange {
+    font-size: 20px;
+    line-height: 1.5;
+    img {
+        margin: 5px 5px 5px 0;
+    }
+    a {
+        margin: 5px 20px 5px 0;
     }
 }
