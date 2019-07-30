@@ -6,11 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="stylesheet/less" type="text/css" href="css/styles.less">
+    <link rel="stylesheet" href="css/styles.min.css">
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery_lazyload/jquery.lazyload.min.js"></script>
-    <script src="lib/less/less.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
@@ -1370,7 +1369,7 @@
                     </div>
                 </div>
                 <div class="dapp">
-                    <img src="images/nxad.svg">
+                    <img data-original="images/nxad.svg">
                     <div>
                         <h3 class="mt-2 mb-1">Nxad</h3>
                         <small class="d-block mb-2">
@@ -1385,7 +1384,7 @@
                     </div>
                 </div>
                 <div class="dapp">
-                    <img src="images/airdrop_united.jpg">
+                    <img data-original="images/airdrop_united.jpg">
                     <div>
                         <h3 class="mt-2 mb-1">Airdrop United</h3>
                         <small class="d-block mb-2">
@@ -1404,7 +1403,7 @@
                     </div>
                 </div>
                 <div class="dapp">
-                    <img src="images/ilink_cbc_dapp2.jpg">
+                    <img data-original="images/ilink_cbc_dapp2.jpg">
                     <div>
                         <h3 class="mt-2 mb-1">iLINK NETWORK</h3>
                         <small class="d-block mb-2">
@@ -1439,45 +1438,6 @@
                             <a href="https://twitter.com/NeoFishChain" target="_blank">Twitter</a>
                             <a href="https://github.com/FishChain" target="_blank">GitHub</a>
                             <a href="https://neotracker.io/contract/833ff069a6f04488192bbfd9334699719c8c9c63" target="_blank">Contract</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="dapp">
-                    <img data-original="images/CryptantCrab.png">
-                    <div>
-                        <h3 class="mt-2 mb-1">CryptantCrab</h3>
-                        <small class="d-block mb-2">
-                            by
-                            <a href="https://cryptantcrab.io" target="_blank">CryptantCrab</a>
-                        </small>
-                        <p class="description">Collect monstrous, mutatable virtual crabs in CryptantCrab and create the ultimate strategy to overwhelm your opponents! Participate in the Arena and win ethereum rewards!</p>
-                        <div class="link">
-                            <a href="https://cryptantcrab.io" target="_blank">Website</a>
-                            <a href="https://discordapp.com/invite/S34AVrU" target="_blank">Discord</a>
-                            <a href="https://twitter.com/CryptantCrab" target="_blank">Twitter</a>
-                            <a href="https://medium.com/@cryptantcrab" target="_blank">Medium</a>
-                            <a href="https://www.reddit.com/r/CryptantCrab/" target="_blank">Reddit</a>
-                            <a href="https://www.facebook.com/CryptantCrab" target="_blank">Facebook</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="dapp">
-                    <img data-original="images/novem.gif" alt="Novem Gold Company">
-                    <div>
-                        <h3 class="mt-2 mb-1">Novem GOLD</h3>
-                        <small class="d-block mb-2">
-                            by
-                            <a href="https://novemgold.com/" target="_blank">NOVEM GOLD AG</a>
-                        </small>
-                        <p class="description">
-                            Novem Gold is transforming the gold industry with the safest, gold-backed token in the world by pioneering selling, buying, and storing gold on the blockchain whereby the token holder is the sole owner of the gold, which is 100% redeemable any time.
-                        </p>
-                        <div class="link">
-                            <a href="https://novemgold.com/" target="_blank">Website</a>
-                            <a href="https://novemgold.com/wp-content/uploads/2019/05/novem_whitepaper_en_v2.pdf" target="_blank">Whitepaper</a>
-                            <a href="https://www.twitter.com/novemgold" target="_blank">Twitter</a>
-                            <a href="https://www.linkedin.com/company/12982449" target="_blank">LinkedIn</a>
-                            <a href="https://medium.com/@NovemGold" target="_blank">Medium</a>
                         </div>
                     </div>
                 </div>
@@ -1787,7 +1747,8 @@
     <script>
         $('[data-original]').lazyload({
             threshold: 200,
-            effect: "fadeIn"
+            effect: "fadeIn",
+            failurelimit : 10
         });
         function showTable() {
             $(".modal-body:eq(0)").html("");
