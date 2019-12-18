@@ -6,7 +6,7 @@ body .jumbotron {
   color: #fff;
 }
 body .jumbotron h1 {
-  color: #58bf00;
+  color: #02e49b;
   font-weight: normal;
   text-shadow: 0 3px 4px rgba(255, 255, 255, 0.3);
 }
@@ -45,7 +45,7 @@ body .jumbotron h1 {
   max-height: 149px;
 }
 .dapp img + div {
-  border-top: 1px solid #28a745;
+  border-top: 1px solid #02e49b;
 }
 .dapp .link {
   position: absolute;
@@ -59,10 +59,10 @@ body .jumbotron h1 {
   margin-right: 7px;
 }
 .dapp a {
-  color: #28a745 !important;
+  color: #02e49b !important;
 }
 .dapp a:hover {
-  color: #1e7e34 !important;
+  color: #02b179 !important;
 }
 #exchange {
   font-size: 20px;
