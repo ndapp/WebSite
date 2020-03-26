@@ -9,7 +9,7 @@ The overall process is as follows:
 5. Push the changes to your main branch.
 6. Create a Pull Request (PR) on GitHub (ndapp ← your own GitHub).
 
-When the PR is submitted, it will be reviewed and, if accepted, merged into the main branch, after which it is published to the official website.If you have any questions, you can send an e-mail to [chenzhitong12@hotmail.com](mailto:chenzhitong12@hotmail.com).
+When the PR is submitted, it will be reviewed and, if accepted, merged into the main branch, after which it is published to the official website.If you have any questions, you can send an e-mail to [hactrox@gmail.com](mailto:hactrox@gmail.com).
 
 ### dApp Requests
 
@@ -29,7 +29,7 @@ When the PR is submitted, it will be reviewed and, if accepted, merged into the 
 5. Push 到自己的 GitHub，也就是当前的 Origin 地址
 6. 在 GitHub 上提交 Pull request（ndapp ← Your GitHub）
 
-提交 Pull request 后，管理员审核通过后，就会合并到主分支中，并且发布到官网。若有疑问，可以发邮件到 [chenzhitong12@hotmail.com](mailto:chenzhitong12@hotmail.com)
+提交 Pull request 后，管理员审核通过后，就会合并到主分支中，并且发布到官网。若有疑问，可以发邮件到 [hactrox@gmail.com](mailto:hactrox@gmail.com)
 
 ### dApp 要求
 
@@ -38,4 +38,3 @@ When the PR is submitted, it will be reviewed and, if accepted, merged into the 
 
 - 封面图片上传至 images 文件夹中
 - 新添加的项目应该添加到项目列表的最后，否则审核不会通过。
-
